@@ -1,0 +1,241 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    height: 200px;
+    width: 480px;
+
+}
+
+button {
+    display: flex;
+    height: 25px;
+    width: 95px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+    padding: 15px;
+    font-weight: bold;
+    border-color: #3882F6;
+    border-style: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+/*THIS IS ALL TOP SECTION*/
+.header{
+    background-color: #1F2937;
+    height: 250px;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    color: white;
+    flex-shrink: 0;
+    
+}
+/*Header text + links*/
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*header logo*/
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 650px;
+}
+/*Links in header*/
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/*h1 + para + image + button*/
+.header-filler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 90px;
+    padding: 80px;
+    
+}
+/*Text in header + button*/
+.header-para{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: start;
+    max-width: 480px;
+    
+}
+/*Only header image*/
+.header-image{
+    display: flex;
+    flex: 1 0 auto;
+}
+
+
+
+
+
+/*All styling below will mostly be for content under header*/
+
+/*This is both the h2 text and the images*/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+/*This is styling the images sizings etc*/
+.content img{
+    display: flex;
+    
+    border-radius: 10px;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.content-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*I created these just to align the text under the picture*/
+.content-img-one p{
+
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.content-img-two p{
+
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.content-img-three p{
+
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.content-img-four p{
+
+    width: 158px;
+    height: 158px;
+    margin: 20px;
+}
+
+/*Quote styling*/
+
+.quote{
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px;
+    padding-top: 90px;
+    font-size: 36px;
+
+}
+
+.quote i{
+
+    width: 650px;
+    color: #1f2937;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.quote p{
+    display: flex;
+    font-weight: 800;
+    width: 650px;
+    justify-content: end;
+    margin-bottom: -5px;
+}
+
+/*call to action styling*/
+.cta{
+    display: flex;
+    background-color: #3882F6; 
+    color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: 1 0 auto;
+}
+
+.cta .cta-bold{
+    font-weight: bold;
+    font-size: large;
+}
+
+.cta .cta-text{
+    flex-direction: column;
+    
+}
+
+.cta #button-two{
+    margin-left: 50px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+
+/*Styling for footer*/
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
